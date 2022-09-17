@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Arroz",
+      "price": 12,
+      "category": "Alimentos",
+      "in_stock": true,
+      "image": "https://www.acasaencantada.com.br/wp-content/uploads/2019/01/arroz-perfeito-1200x675.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Feijão",
+      "price": 13,
+      "category": "Alimentos",
+      "in_stock": true,
+      "image": "https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/12/feijao-feed_01.png"
+    },
+    {
+      "id": 3,
+      "name": "Macarrão",
+      "price": 10,
+      "category": "Alimentos",
+      "in_stock": false,
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/101/040/356212/356212_original.jpg?mode=crop&width=710&height=400"
+    },
+    {
+      "id": 4,
+      "name": "Milho",
+      "price": 8,
+      "category": "Alimentos",
+      "in_stock": false,
+      "image": "https://terramagna.com.br/wp-content/uploads/2022/05/espiga-milho-barba-palha.png"
+    },
+    {
+      "id": 5,
+      "name": "Coca Cola",
+      "price": 5,
+      "category": "Bebidas",
+      "in_stock": true,
+      "image": "https://gkpb.com.br/wp-content/uploads/2022/09/coca-cola-promessas.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Guaraná",
+      "price": 4,
+      "category": "Bebidas",
+      "in_stock": false,
+      "image": "https://gkpb.com.br/wp-content/uploads/2021/10/novos-sabores-guarana-antarctica-100-anos.png"
+    },
+    {
+      "id": 7,
+      "name": "Aguá",
+      "price": 3,
+      "category": "Bebidas",
+      "in_stock": false,
+      "image": "https://www.correio24horas.com.br/fileadmin/_processed_/c/3/csm_24102018_baz_sommelier_de_aguas_cred_divulgacao_shutterstock_1_aff62af31d.jpg"
+    }
+  ],
+  "cart": []
+}

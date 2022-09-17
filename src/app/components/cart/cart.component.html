@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="title">
+    <h1>Lista no Carrinho</h1>
+  </div>
+  <div class="wrapper">
+    <div class="products-list">
+      <div class="product" *ngFor="let product of productsOnCart">
+        <div class="product-info">
+          <h2>{{product.name}}</h2>
+          <p class="price">{{product.price | currency:'BRL'}}</p>
+          <button (click)="removeProduct(product.id)">Remover do carrinho</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div *ngIf="productsOnCart.length > 0 else elseBlock">
+      <button class="buy" (click)="buy()">Finalizar compra!</button>
+    </div>
+    <ng-template #elseBlock>
+      <div>
+        Carrinho vazio.
+        <a routerLink="">Clique para voltar a lista de produtos</a>
+      </div>
+    </ng-template>
+  </div>
+</div>
